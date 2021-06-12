@@ -1,0 +1,19 @@
+h1{
+	text-align: center;
+	font-family:"Lucida Console", Courier, monospace;
+	background-color: #323232;
+	color: white;
+	margin: 0;
+	display: block;
+	padding: 90px;
+}
+
+img{
+	width: 200px;
+	height: 200px;
+}
+
+.personagem-container{
+	width: 25%;
+	height: 300px;
+}
