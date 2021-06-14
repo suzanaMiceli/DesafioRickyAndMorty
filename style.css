@@ -1,19 +1,122 @@
-h1{
-	text-align: center;
-	font-family:"Lucida Console", Courier, monospace;
-	background-color: #323232;
-	color: white;
-	margin: 0;
-	display: block;
-	padding: 90px;
+
+body {
+	width: 100%;
+	margin:0;
+	background-color: #f6f6f6;
+	font-family: 'Open Sans',Arial,sans-serif;
 }
 
-img{
-	width: 200px;
-	height: 200px;
+.navegacao-container{
+	background-color: #0E1A33;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 }
+.foto-suzana{
+	width: 50px;
+	height: 60px;
+	border-radius: 100%;
+	margin-left: 15px;
+}
+.cabecalhoPrincipal-titulo{
+	color: #8dc63f;
+	display: inline-block;
+	font-family: 'Open Sans', sans-serif;
+}
+.img-zup{
+	width: 95px;
+	height: 40px;
+	margin-right: 15px;
+}
+
+.logo-rm{
+	margin-top: 50px;
+}
+
+h2{
+	
+	color: #0e1a33;
+	margin: 0;
+	padding-top: 90px;
+	text-align: center;
+	font-size: 50px;
+	font-weight: 900;
+	letter-spacing: 0px;
+}
+
+h3{
+	
+	font-family:font-family: 'Open Sans Condensed', sans-serif;
+	color: #0e1a33;
+	margin: 0;
+	padding-top: 15px;
+	text-align: center;
+}
+
+.cabecalho{
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+.section02{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	
+}
+
+
+.container{
+	width: 94%;
+    margin-left: 60px;
+    margin-right: 60px;
+    padding-left: 36px;
+    margin-top: 35px;
+}
+
 
 .personagem-container{
-	width: 25%;
-	height: 300px;
+	width: 360px;
+	height: 385px;
+	margin: 35px;
+	display: inline-block;
+	align-content: center;
+	background-color: #ffffff8a;
+	border-radius: 10px;
+	justify-content: space-between;
+	box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+
+}
+
+.imagemPersonagem1, .imagemPersonagem2, .imagemPersonagem3, .imagemPersonagem4{
+	width: 270px;
+	height: 250px;
+	margin: 30px 30px 0px 44px;
+	display: relative;
+	border-radius: 10px;
+}
+
+
+
+
+.nomeDoPersonagem1, .nomeDoPersonagem2, .nomeDoPersonagem3, .nomeDoPersonagem4{
+	text-align: center;
+	color: #283445;
+	font-size: 22px;
+	width: 350px;
+} 
+
+
+footer{
+	width: 100%;
+	background-color: #0C3455;
+}
+
+.imagem-estrelas{
+	height:100px;
+	width:100px;
+	margin-left: 45%;
+	margin-top: 15px;
+	margin-bottom: 15px;
 }
